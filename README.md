@@ -18,7 +18,6 @@
 # Benchmark
 
 # Future work
-  - ### Build simple Machine Learning model with [SignsWorld Atlas](https://data.mendeley.com/datasets/y7pckrw6z2/1?fbclid=IwAR0ucbKGH9VdkzI2LccuTnk5wcoMQ0odAKSQkq6wKmG9-cvsDj4hwm9Rnb8).
   - ### Build simple Deep Learning model with [SignsWorld Atlas](https://data.mendeley.com/datasets/y7pckrw6z2/1?fbclid=IwAR0ucbKGH9VdkzI2LccuTnk5wcoMQ0odAKSQkq6wKmG9-cvsDj4hwm9Rnb8).
 
 # Resources
