@@ -10,6 +10,12 @@
 $ python3 test.py
 ```
 
+# Sample
+- ## Text to Sign Language
+  <img src="https://github.com/7AM7/Sign-Language/blob/master/videos/Text-to-sign-gif.gif" width="160" height="280" />
+- ## Sign Language to Text
+  <img src="https://github.com/7AM7/Sign-Language/blob/master/videos/sign-to-text-gif.gif" width="280" height="200" />
+
 # Dataset
   - #### [SignsWorld Atlas](https://data.mendeley.com/datasets/y7pckrw6z2/1?fbclid=IwAR0ucbKGH9VdkzI2LccuTnk5wcoMQ0odAKSQkq6wKmG9-cvsDj4hwm9Rnb8)
     - Description of this data
