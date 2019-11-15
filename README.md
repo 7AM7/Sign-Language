@@ -5,6 +5,11 @@
 # How it works
   We use the framework utilizes the power of cloud computing for the complex processing of the Arabic text and Videos. The video processing produced a Arabic text showing the corresponding Standard Arabic Language on the mobile handset of the deaf person.
 
+# Run
+```
+$ python3 test.py
+```
+
 # Dataset
   - #### [SignsWorld Atlas](https://data.mendeley.com/datasets/y7pckrw6z2/1?fbclid=IwAR0ucbKGH9VdkzI2LccuTnk5wcoMQ0odAKSQkq6wKmG9-cvsDj4hwm9Rnb8)
     - Description of this data
