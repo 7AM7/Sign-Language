@@ -12,6 +12,7 @@
   ```
   
   - ### Run (Character level - hand detection- facial landmarks)
+      NOTE: Download [facial landmarks](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) model and put it in  <b>landmarks folder.
   ```
   $ python3 ASL_detection_landmark.py
   ```
