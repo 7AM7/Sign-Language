@@ -49,3 +49,5 @@
 - [Sign Language Recognition Datasets](http://facundoq.github.io/unlp/sign_language_datasets/?fbclid=IwAR2fBOoA97S_IiUgfLdaEVb3kKqld2quDk2_6oAEHDk4_gz22wnNWphJcQ4).
 - [ArASL](https://www.sciencedirect.com/science/article/pii/S2352340919301283).
 - [SignsWorld Atlas benchmark](https://www.sciencedirect.com/science/article/pii/S1319157814000548)
+- [hand detection](https://github.com/victordibia/handtracking)
+- [hand tracking](https://github.com/adipandas/multi-object-tracker)
