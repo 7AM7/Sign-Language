@@ -5,10 +5,21 @@
 # How it works
   We use the framework utilizes the power of cloud computing for the complex processing of the Arabic text and Videos. The video processing produced a Arabic text showing the corresponding Standard Arabic Language on the mobile handset of the deaf person.
 
-# Run
-```
-$ python3 test.py
-```
+# Hand tracking and facial landmarks
+  - ### Run simple (Character level)
+  ```
+  $ python3 simple_test.py
+  ```
+  
+  - ### Run (Character level - hand detection- facial landmarks)
+  ```
+  $ python3 ASL_detection_landmark.py
+  ```
+  - ### Run (hand detection & tracking)
+  ```
+  $ python3 hand_detection_tracking.py
+  ```
+  
 
 # Sample
 - ## Text to Sign Language
