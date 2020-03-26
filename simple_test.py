@@ -26,7 +26,6 @@ def process_image(img):
 
 cap = cv2.VideoCapture(0)
 
-res, score = '', 0.0
 frame_counter = 0
 
 sequence = ''
@@ -75,11 +74,10 @@ while True:
         image_data = cv2.imencode('.jpg', img_cropped)[1].tostring()
         
         a = cv2.waitKey(1)
-        score = 0
-        res = ''
         if frame_counter % 5 == 0:
+            score = 0
+            res = ''
             try:
-
                 proba = model.predict(process_image(img_cropped))[0]
                 mx = np.argmax(proba)
 
