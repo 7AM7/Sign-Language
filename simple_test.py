@@ -27,7 +27,7 @@ def process_image(img):
 cap = cv2.VideoCapture(0)
 
 res, score = '', 0.0
-i = 0
+frame_counter = 0
 
 sequence = ''
 fontFile = "fonts/Sahel.ttf"
@@ -77,21 +77,22 @@ while True:
         a = cv2.waitKey(1)
         score = 0
         res = ''
-        try:
-            proba = model.predict(process_image(img_cropped))[0]
-            mx = np.argmax(proba)
+        if frame_counter % 5 == 0:
+            try:
 
-            score = proba[mx] * 100
-            res = categories[mx][0]
-            sequence = categories[mx][1]
-        except:
-            continue 
-        #print(res, score)
+                proba = model.predict(process_image(img_cropped))[0]
+                mx = np.argmax(proba)
+
+                score = proba[mx] * 100
+                res = categories[mx][0]
+                sequence = categories[mx][1]
+            except:
+                continue 
 
         reshaped_text = arabic_reshaper.reshape(sequence)   
         bidi_text = get_display(reshaped_text)    
 
-        i += 1
+        frame_counter += 1
         img_pil = Image.fromarray(img)
         draw = ImageDraw.Draw(img_pil)
         draw.text((50, 600), bidi_text, (255,255,255), font=font)
